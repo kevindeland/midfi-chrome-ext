@@ -6,13 +6,18 @@ elemDiv.setAttribute("id", "bot");
 elemDiv.style.cssText= 'position:absolute;width:256px;height:256px;top:0px;right:0px;background: url(https://www.iconfinder.com/data/icons/black-logistics-icons/256/Robot_head.png); display:none;';
 document.body.appendChild(elemDiv);
 
-function addRobot() {
+function hiRobot() {
   $('#bot').slideDown();
 }
 
-var calculateGoal = document.querySelectorAll("input[value=\"Calculate Goal\"]")[0];
-calculateGoal.addEventListener('mouseover', addRobot);
+function byeRobot() {
+  $('#bot').slideUp();
+}
 
+var calculateGoal = document.querySelectorAll("input[value=\"Calculate Goal\"]")[0];
+calculateGoal.addEventListener('mouseover', hiRobot);
+
+calculateGoal.addEventListener('mouseleave', byeRobot);
 
 
 // unused code
