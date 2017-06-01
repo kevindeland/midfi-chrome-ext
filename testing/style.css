@@ -1,0 +1,9 @@
+
+* {margin: 0; padding: 0;}
+body { font-family: : Georgia, serif;}
+
+#page-wrap {width: 500px; margin: 15px auto;}
+
+p {margin: 0 0 15px 0;}
+
+#bot { width: 256px; height: 256px; }
