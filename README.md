@@ -2,6 +2,12 @@
 This is a chrome extension for performing midfi prototyping with a chrome extension
 
 ## Instructions
+1. Download or clone this folder into a local directory of your choice.
+2. Open your Google Chrome browser and navigate to "chrome://extensions/".
+3. Click on "Load unpacked extension".
+4. Navigate to your location of this project and press "Select".
+5. Make sure that the "Vittore Midfi Prototyping" extension is Enabled. You should see the Vittore icon has been added to your Chrome toolbar.
+6. Use Chrome to navigate to your renaissance demo page, and go to the goal setting page. When you hover over the "Calculate Goal" button, you should notice you have a new friend!
 
 
 ## Developer notes and process work
