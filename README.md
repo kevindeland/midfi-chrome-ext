@@ -1,5 +1,5 @@
 # Midfi prototyping chrome extension
-This is a chrome extension for performing midfi prototyping with a chrome extension
+This is a chrome extension for performing midfi prototyping.
 
 ## Instructions
 1. Download or clone this folder into a local directory of your choice.

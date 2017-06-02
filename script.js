@@ -2,10 +2,17 @@
 window.onload = function () {
   console.log("page loaded, adding script to page");
   // copy and paste all of these into the console
-  var elemDiv = document.createElement('div');
-  elemDiv.setAttribute("id", "bot");
-  elemDiv.style.cssText= 'position:absolute;width:256px;height:256px;top:0px;right:0px;background: url(https://www.iconfinder.com/data/icons/black-logistics-icons/256/Robot_head.png); display:none;';
-  document.body.appendChild(elemDiv);
+  var botDiv = document.createElement('div');
+  botDiv.setAttribute("id", "bot");
+  botCssText = 'position:absolute;'
+  botCssText += 'width:256px;'
+  botCssText += 'height:256px;'
+  botCssText += 'top:0px;'
+  botCssText += 'right:0px;'
+  botCssText += 'background: url(https://www.iconfinder.com/data/icons/black-logistics-icons/256/Robot_head.png);'
+  botCssText += ' display:none;'
+  botDiv.style.cssText = botCssText;
+  document.body.appendChild(botDiv);
 
   function hiRobot() {
     $("#bot").slideDown();
