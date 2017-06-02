@@ -25,3 +25,6 @@ https://www.w3schools.com/jquery/jquery_slide.asp
 Adding as chrome plugin:
 https://stackoverflow.com/questions/43029072/run-js-script-in-chrome-extension-on-page-load
 https://stackoverflow.com/questions/21317476/how-to-use-jquery-in-chrome-extension
+
+Testing with jquery in the console
+https://stackoverflow.com/questions/7474354/include-jquery-in-the-javascript-console
